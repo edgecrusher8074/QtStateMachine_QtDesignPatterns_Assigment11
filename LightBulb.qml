@@ -23,7 +23,7 @@ Item {
     Rectangle
     {
         id: fakeCircle
-        color: "darkgray"
+        color: "darkred"
         radius: width
         anchors.fill: parent
     }
@@ -42,7 +42,7 @@ Item {
             name: "inactive"
             PropertyChanges {
                 target: fakeCircle
-                color: "darkgray"
+                color: "darkred"
             }
         }
 
